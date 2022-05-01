@@ -1,0 +1,29 @@
+{
+  "name": "question-factory",
+  "version": "0.1.0",
+  "description": "An OOP based Questions to Answers with Inquirer the CLI created for Node.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo 'Not implemented yet.'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevJonTaylor/question-factory.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "types": "./index.d.ts",
+  "bugs": {
+    "url": "https://github.com/DevJonTaylor/question-factory/issues"
+  },
+  "homepage": "https://github.com/DevJonTaylor/question-factory#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}
