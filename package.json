@@ -1,5 +1,5 @@
 {
-  "name": "question-factory",
+  "name": "@devjontaylor/question-factory",
   "version": "0.1.0",
   "description": "An OOP based Questions to Answers with Inquirer the CLI created for Node.",
   "main": "index.js",
