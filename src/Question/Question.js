@@ -1,4 +1,4 @@
-import { camelCase, isUndefined } from 'lodash'
+const { camelCase, isUndefined } = require('lodash')
 
 /**
  * @typedef {Question | List | Input | Choice} QuestionTypes
@@ -15,7 +15,7 @@ import { camelCase, isUndefined } from 'lodash'
  * @property {string} _default
  * @property {ValidateType} _validate
  */
-class Question {
+module.exports = class Question {
   _originalName = ''
   _type = ''
   _name = ''
@@ -31,7 +31,7 @@ class Question {
   }
 
   /**
-   * This is in nearly every question. It represents what to ask the user.
+   * This is in nearly every question. It re/presents what to ask the user.
    * If a parameter is not provided it will return the current message value.
    * If a parameter is provided it will return this for chaining.
    * @param {string} [message]
@@ -144,5 +144,3 @@ class Question {
     return returnMe
   }
 }
-
-export default Question

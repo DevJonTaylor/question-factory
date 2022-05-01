@@ -1,9 +1,9 @@
-import Question from './Question'
-import Choice from './Choice'
-import { Separator } from 'inquirer'
-import { isFunction, isUndefined, camelCase } from 'lodash'
+const Question = require('./Question/Question')
+const Choice = require('./Choice')
+const { Separator } = require('inquirer')
+const { isFunction, isUndefined, camelCase } = require('lodash')
 
-class List extends Question {
+module.exports = class List extends Question {
   _type = 'list'
   _pageSize = 10
   _choices = new Map()
@@ -160,5 +160,3 @@ class List extends Question {
     }
   }
 }
-
-export default List

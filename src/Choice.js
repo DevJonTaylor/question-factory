@@ -1,4 +1,4 @@
-import { camelCase, isEmpty, isUndefined } from 'lodash'
+const { camelCase, isEmpty, isUndefined } = require('lodash')
 
 /**
  * The Choice class is used to create a choice object that can be used in a form
@@ -8,7 +8,7 @@ import { camelCase, isEmpty, isUndefined } from 'lodash'
  * @property {boolean} _checked
  * @property {boolean} _disabled
  * */
-class Choice {
+module.exports = class Choice {
   _name = ''
   _value = ''
   _checked = false
@@ -133,5 +133,3 @@ class Choice {
     return returnMe
   }
 }
-
-export default Choice

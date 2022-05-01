@@ -1,5 +1,5 @@
-import List from './List'
+const List = require('./List')
 
-export default class Checkbox extends List {
+module.exports = class Checkbox extends List {
   _type = 'checkbox'
 }

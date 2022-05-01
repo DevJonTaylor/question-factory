@@ -1,7 +1,5 @@
-import Question from './Question'
+const Question = require('./Question/Question')
 
-class Password extends Question {
+module.exports = class Password extends Question {
   _type = 'password'
 }
-
-export default Password

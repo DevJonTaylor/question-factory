@@ -1,12 +1,12 @@
-import { isUndefined, isString } from 'lodash'
-import { Input, List, Checkbox, Editor, Password, Number } from './'
-import { prompt } from 'inquirer'
+const { isUndefined, isString } = require('lodash')
+const { Input, List, Checkbox, Editor, Password, Number } = require('./')
+const { prompt } = require('inquirer')
 /**
  * @typedef {Question|List|Input|Editor|Checkbox|Choice} QuestionTypes
  * @typedef {function(question: QuestionTypes | null): void} QuestionCallback
  */
 
-class QFactory {
+module.exports = class QFactory {
   /**
    * @this {this}
    * @private

@@ -1,5 +1,5 @@
-import Question from './Question'
+const Question = require('./Question/Question')
 
-export default class Editor extends Question {
+module.exports = class Editor extends Question {
   _type = 'editor'
 }

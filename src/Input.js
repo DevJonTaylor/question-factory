@@ -1,7 +1,5 @@
-import Question from './Question'
+const Question = require('./Question/Question')
 
-class Input extends Question {
+module.exports = class Input extends Question {
   _type = 'input'
 }
-
-export default Input

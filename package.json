@@ -1,9 +1,9 @@
 {
-  "name": "question-factory",
+  "name": "qfactory",
   "publishConfig": {
     "@devjontaylor:registry": "https://npm.pkg.github.com"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An OOP based Inquirer framework.",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,7 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
+    "jest": "^28.0.3",
     "prettier": "^2.6.2"
   }
 }
