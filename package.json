@@ -1,24 +1,27 @@
 {
-  "name": "@devjontaylor/question-factory",
+  "name": "question-factory",
+  "publishConfig": {
+    "@devjontaylor:registry": "https://npm.pkg.github.com"
+  },
   "version": "0.1.0",
-  "description": "An OOP based Questions to Answers with Inquirer the CLI created for Node.",
+  "description": "An OOP based Inquirer framework.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo 'Not implemented yet.'"
+    "test": "exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/DevJonTaylor/question-factory.git"
+    "url": "git://github.com/devjontaylor/question-factory.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "types": "./index.d.ts",
   "bugs": {
-    "url": "https://github.com/DevJonTaylor/question-factory/issues"
+    "url": "https://github.com/devjontaylor/question-factory/issues"
   },
-  "homepage": "https://github.com/DevJonTaylor/question-factory#readme",
+  "homepage": "https://github.com/devjontaylor/question-factory#readme",
   "dependencies": {
     "inquirer": "^8.2.4",
     "lodash": "^4.17.21"
